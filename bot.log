@@ -49,3 +49,9 @@
 2025-05-02 21:16:30,962 - INFO - aiogram.event - Update id=328315798 is handled. Duration 200 ms by bot id=7827792861
 2025-05-03 09:36:21,305 - INFO - __main__ - Запуск работы бота.
 2025-05-03 09:37:58,037 - INFO - __main__ - Запуск работы бота.
+2025-05-03 09:44:02,122 - INFO - __main__ - Запуск работы бота.
+2025-05-03 09:44:02,158 - INFO - aiogram.dispatcher - Start polling
+2025-05-03 09:44:02,496 - INFO - aiogram.dispatcher - Run polling for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-03 09:45:36,897 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-05-03 09:45:36,897 - INFO - aiogram.dispatcher - Polling stopped for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-03 09:45:36,897 - INFO - aiogram.dispatcher - Polling stopped
