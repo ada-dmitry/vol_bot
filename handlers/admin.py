@@ -5,8 +5,10 @@ from models import User
 from database import async_session
 import os
 
+
 router = Router()
 admin_ids = list(map(int, os.getenv("ADMINS").split(",")))
+
 
 @router.message(F.text == "/admin")
 async def admin_panel(message: Message):
@@ -14,14 +16,18 @@ async def admin_panel(message: Message):
         return await message.answer("Доступ запрещён.")
     await message.answer("Команды:\n/stat — статистика\n/broadcast <текст> — рассылка")
 
+
 @router.message(F.text.startswith("/stat"))
 async def stat_handler(message: Message):
     if message.from_user.id not in admin_ids:
         return
     async with async_session() as session:
         total = await session.scalar(select(User).count())
-        subscribed = await session.scalar(select(User).where(User.is_subscribed).count())
+        subscribed = await session.scalar(
+            select(User).where(User.is_subscribed).count()
+        )
     await message.answer(f"Всего пользователей: {total}\nПодписаны: {subscribed}")
+
 
 @router.message(F.text.startswith("/broadcast "))
 async def broadcast_handler(message: Message, bot: Bot):

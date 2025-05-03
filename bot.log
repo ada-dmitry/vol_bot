@@ -1,0 +1,51 @@
+2025-05-02 20:48:11,017 - INFO - __main__ - Запуск работы бота.
+2025-05-02 20:48:11,070 - INFO - aiogram.dispatcher - Start polling
+2025-05-02 20:48:11,331 - INFO - aiogram.dispatcher - Run polling for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:48:38,874 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-05-02 20:48:38,875 - INFO - aiogram.dispatcher - Polling stopped for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:48:38,875 - INFO - aiogram.dispatcher - Polling stopped
+2025-05-02 20:52:05,968 - INFO - __main__ - Запуск работы бота.
+2025-05-02 20:52:06,013 - INFO - aiogram.dispatcher - Start polling
+2025-05-02 20:52:06,277 - INFO - aiogram.dispatcher - Run polling for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:52:13,305 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-05-02 20:52:13,306 - INFO - aiogram.dispatcher - Polling stopped for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:52:13,306 - INFO - aiogram.dispatcher - Polling stopped
+2025-05-02 20:52:17,747 - INFO - __main__ - Запуск работы бота.
+2025-05-02 20:52:17,780 - INFO - aiogram.dispatcher - Start polling
+2025-05-02 20:52:18,048 - INFO - aiogram.dispatcher - Run polling for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:52:32,713 - INFO - aiogram.event - Update id=328315775 is handled. Duration 226 ms by bot id=7827792861
+2025-05-02 20:52:44,275 - INFO - aiogram.event - Update id=328315776 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 20:53:04,829 - INFO - aiogram.event - Update id=328315777 is not handled. Duration 2 ms by bot id=7827792861
+2025-05-02 20:53:17,894 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-05-02 20:53:17,895 - INFO - aiogram.dispatcher - Polling stopped for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:53:17,896 - INFO - aiogram.dispatcher - Polling stopped
+2025-05-02 20:55:10,923 - INFO - __main__ - Запуск работы бота.
+2025-05-02 20:55:10,971 - INFO - aiogram.dispatcher - Start polling
+2025-05-02 20:55:11,246 - INFO - aiogram.dispatcher - Run polling for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 20:55:19,000 - INFO - aiogram.event - Update id=328315778 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 20:55:20,367 - INFO - main - User 451218808 started the bot
+2025-05-02 20:55:20,838 - INFO - aiogram.event - Update id=328315779 is handled. Duration 472 ms by bot id=7827792861
+2025-05-02 21:00:28,136 - INFO - aiogram.event - Update id=328315780 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 21:00:28,840 - INFO - main - User 451218808 started the bot
+2025-05-02 21:00:28,963 - INFO - aiogram.event - Update id=328315781 is handled. Duration 123 ms by bot id=7827792861
+2025-05-02 21:00:31,620 - INFO - aiogram.event - Update id=328315782 is not handled. Duration 2 ms by bot id=7827792861
+2025-05-02 21:00:33,258 - INFO - aiogram.event - Update id=328315783 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 21:00:33,973 - INFO - aiogram.event - Update id=328315784 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 21:00:34,039 - INFO - aiogram.event - Update id=328315785 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 21:00:34,178 - INFO - aiogram.event - Update id=328315786 is not handled. Duration 2 ms by bot id=7827792861
+2025-05-02 21:00:34,389 - INFO - aiogram.event - Update id=328315787 is not handled. Duration 1 ms by bot id=7827792861
+2025-05-02 21:08:22,430 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-05-02 21:08:22,431 - INFO - aiogram.dispatcher - Polling stopped for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 21:08:22,431 - INFO - aiogram.dispatcher - Polling stopped
+2025-05-02 21:16:06,283 - INFO - __main__ - Запуск работы бота.
+2025-05-02 21:16:06,343 - INFO - aiogram.dispatcher - Start polling
+2025-05-02 21:16:06,584 - INFO - aiogram.dispatcher - Run polling for bot @volunteer_mephi_bot id=7827792861 - 'VC_Bot'
+2025-05-02 21:16:23,053 - INFO - handlers.user - User 451218808 started the bot
+2025-05-02 21:16:23,296 - INFO - aiogram.event - Update id=328315793 is handled. Duration 243 ms by bot id=7827792861
+2025-05-02 21:16:24,462 - INFO - aiogram.event - Update id=328315794 is handled. Duration 220 ms by bot id=7827792861
+2025-05-02 21:16:25,683 - INFO - aiogram.event - Update id=328315795 is handled. Duration 234 ms by bot id=7827792861
+2025-05-02 21:16:27,117 - INFO - aiogram.event - Update id=328315796 is handled. Duration 212 ms by bot id=7827792861
+2025-05-02 21:16:28,052 - INFO - aiogram.event - Update id=328315797 is handled. Duration 381 ms by bot id=7827792861
+2025-05-02 21:16:30,962 - INFO - aiogram.event - Update id=328315798 is handled. Duration 200 ms by bot id=7827792861
+2025-05-03 09:36:21,305 - INFO - __main__ - Запуск работы бота.
+2025-05-03 09:37:58,037 - INFO - __main__ - Запуск работы бота.

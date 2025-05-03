@@ -11,11 +11,10 @@ import os
 router = Router()
 admin_ids = list(map(int, os.getenv("ADMINS", "").split(",")))
 
-# Храним рассылки
+
 adv_memory = {}  # {adv_id: {"text": str, "is_active": bool}}
 current_adv_id = None
 
-# Состояния для FSM
 class AdvForm(StatesGroup):
     short = State()
     full = State()
@@ -44,18 +43,15 @@ async def get_full_text_and_send(message: Message, state: FSMContext, bot: Bot):
     # Генерируем уникальный ID рассылки
     adv_id = str(uuid4())
 
-    # Деактивируем старые рассылки
     for adv in adv_memory.values():
         adv["is_active"] = False
 
-    # Сохраняем новую рассылку
     adv_memory[adv_id] = {
         "text": full_text,
         "is_active": True
     }
     current_adv_id = adv_id
 
-    # Клавиатура
     kb = InlineKeyboardMarkup(inline_keyboard=[
         [
             InlineKeyboardButton(text="👍 Интересно", callback_data=f"adv:{adv_id}"),
